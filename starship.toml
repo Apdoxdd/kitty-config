@@ -1,0 +1,41 @@
+add_newline = false
+
+format = "$username $directory $character"
+
+[username]
+style_user = "bold white"
+style_root = "bold white"
+format = "[$user]($style)"
+show_always = true
+disabled = false
+
+[directory]
+style = "#3d3d3d"
+format = "[$path]($style)"
+truncation_length = 4
+truncate_to_repo = false
+
+[character]
+format = "$symbol "
+success_symbol = "λ"
+error_symbol   = "λ"
+vicmd_symbol   = "λ"
+
+[git_branch]
+disabled = true
+[git_status]
+disabled = true
+[c]
+disabled = true
+[nodejs]
+disabled = true
+[python]
+disabled = true
+[rust]
+disabled = true
+[golang]
+disabled = true
+[java]
+disabled = true
+[package]
+disabled = true
